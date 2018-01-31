@@ -6,7 +6,7 @@ In-class exploration of Twitter data and what makes a Twitter user a real person
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**  
 
 - [Data files](#data-files)
 - [Getting a project folder set up with the command-line](#getting-a-project-folder-set-up-with-the-command-line)
@@ -19,8 +19,11 @@ In-class exploration of Twitter data and what makes a Twitter user a real person
   - [How to filter the `peeps` list](#how-to-filter-the-peeps-list)
   - [Dealing with numbers that are strings](#dealing-with-numbers-that-are-strings)
   - [Sorting Twitter users](#sorting-twitter-users)
-- [Bot-detection and other stories](#bot-detection-and-other-stories)
+- [Bot-detection and other story ideas](#bot-detection-and-other-story-ideas)
 - [Background](#background)
+  - [Stories](#stories)
+    - [When fingerprinting/family analysis needs augmentation of real world observations](#when-fingerprintingfamily-analysis-needs-augmentation-of-real-world-observations)
+  - [Questions to have in mind](#questions-to-have-in-mind)
   - [Examples of auditing/comparison/detection methods for determining Twitter user value](#examples-of-auditingcomparisondetection-methods-for-determining-twitter-user-value)
   - [Sorting a list](#sorting-a-list)
   - [Sorting lists of complex/irregular items](#sorting-lists-of-complexirregular-items)
@@ -102,6 +105,13 @@ $ start data/stanforddaily-followings.csv
 
 
 ## Python tasks
+
+Before moving forward, make sure you are where you think you are in terms of your working directory:
+
+```sh
+$ cd ~/Desktop/project-compciv-twitterfakes
+$ pwd
+```
 
 ### How to open a CSV file, read it, and deserialize it
 
